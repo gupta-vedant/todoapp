@@ -50,3 +50,7 @@ search.addEventListener('keyup', () => {
   const term = search.value.trim();
   filterTodos(term);
 });
+
+app.listen(port, () => {
+  console.log(`listening to the port no 8000`)
+})
